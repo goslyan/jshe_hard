@@ -2,7 +2,7 @@ let lang = prompt('Выберите язык', 'ru, en');
 
 
 
-/*через if*/
+/* if */
 
 if (lang === 'ru') {
     console.log('Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье')
@@ -15,7 +15,7 @@ if (lang === 'ru') {
 
 
 
-/* через switch-case*/
+/* switch */
 
 switch (lang) {
     case 'ru':
@@ -31,7 +31,7 @@ switch (lang) {
 
 
 
-/* через многомерный массив без ифов и switch*/
+/* многомерный массив */
 const langDays = {
     ru: ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'],
     en: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
